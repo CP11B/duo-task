@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   flask-app:
+    container_name: flask-app
     build: ./flask-app
     ports:
     - target: 5000
